@@ -1,4 +1,6 @@
-﻿namespace ReviewAssignment
+﻿//Nathan
+
+namespace ReviewAssignment
 {
     internal class Program
     {
@@ -15,7 +17,6 @@
 
             DoPurchases(jim);
 
-            //toast.SetDiscountAmmount(1); //Trial customer has set discount amount because it is?
         }
 
         static void DoPurchases(Customer customer)

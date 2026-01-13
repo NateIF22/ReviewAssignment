@@ -21,7 +21,6 @@ namespace ReviewAssignment
 
         public override void CalculateDiscountAmount()
         {
-            //Increment transaction counter (start new transaction)
             NumOfTransactions++;
 
             Console.WriteLine("Doing a transaction!");
