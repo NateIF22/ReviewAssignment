@@ -7,13 +7,13 @@ namespace ReviewAssignment
         static void Main(string[] args)
         {
             //Creates a new instance of the Customer class
-            Customer toast = new TrialCustomer("Nathan", "Franks");
-            Customer seconds = new PremiumCustomer("Samantha", "Malt");
+            Customer nathan = new TrialCustomer("Nathan", "Franks");
+            Customer samantha = new PremiumCustomer("Samantha", "Malt");
             Customer jim = new ProCustomer("Jim", "Renice");
 
-            DoPurchases(toast);
+            DoPurchases(nathan);
 
-            DoPurchases(seconds);
+            DoPurchases(samantha);
 
             DoPurchases(jim);
 
