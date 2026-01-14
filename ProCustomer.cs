@@ -29,7 +29,7 @@ namespace ReviewAssignment
                 SetDiscountAmount(0.10m);
             }
             Console.WriteLine("Doing a transaction.");
-            Console.WriteLine("Sending a thank you note");
+            Console.WriteLine("Sending a thank you note\n");
         }
     }
 }

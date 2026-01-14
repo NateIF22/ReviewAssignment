@@ -24,7 +24,7 @@ namespace ReviewAssignment
             //Increment transaction counter
             NumOfTransactions++;
 
-            Console.WriteLine("Doing a transaction.");
+            Console.WriteLine("Doing a transaction.\n");
         }
     }
 }

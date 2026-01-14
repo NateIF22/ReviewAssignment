@@ -28,7 +28,7 @@ namespace ReviewAssignment
             {
                 SetDiscountAmount(0);
             }
-            Console.WriteLine("Doing a transaction.");
+            Console.WriteLine("Doing a transaction.\n");
         }
     }
 }
