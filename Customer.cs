@@ -29,7 +29,7 @@ namespace ReviewAssignment
             Console.WriteLine($"Customer Name: {FirstName} {LastName} - {DiscountType}");           
         }
 
-        public void SetDiscountAmmount(decimal discount)
+        public void SetDiscountAmount(decimal discount)
         {
             DiscountAmount = discount;
         }

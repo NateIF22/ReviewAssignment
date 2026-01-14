@@ -21,15 +21,14 @@ namespace ReviewAssignment
 
         public override void CalculateDiscountAmount()
         {
-            //Increment transaction counter (start new transaction)
+            //Increment transaction counter
             NumOfTransactions++;
 
-            //When the num of transactions is 
             if (NumOfTransactions >= DiscountUpperLimit)
             {
-                SetDiscountAmmount(0.10m);
+                SetDiscountAmount(0.10m);
             }
-            Console.WriteLine("Doing a transaction!");
+            Console.WriteLine("Doing a transaction.");
             Console.WriteLine("Sending a thank you note");
         }
     }

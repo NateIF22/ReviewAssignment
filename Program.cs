@@ -8,8 +8,8 @@ namespace ReviewAssignment
         {
             //Creates a new instance of the Customer class
             Customer toast = new TrialCustomer("Nathan", "Franks");
-            Customer seconds = new PremiumCustomer("Sam", "Galt");
-            Customer jim = new ProCustomer("Jim", "Pam");
+            Customer seconds = new PremiumCustomer("Samantha", "Malt");
+            Customer jim = new ProCustomer("Jim", "Renice");
 
             DoPurchases(toast);
 
